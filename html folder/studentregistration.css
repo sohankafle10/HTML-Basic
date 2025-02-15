@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#name{
+   
+   margin: 5px;
+}
+h1{
+  text-align: center;
+}
+#password{
+    margin: 5px;
+}
+#phone{
+    margin: 5px;
+}
+#number{
+    margin: 5px;
+}
+#email{
+    margin: 5px;
+}
+#gender{
+    margin: 5px;
+}
+#age{
+    margin: 5px;
+}
+#interest{
+    margin: 5px;
+}
+#time{
+    margin: 5px;
+}
+#color{
+    margin: 5px;
+}
+#photo{
+    margin: 5px;
+}
+#style{
+    margin-left: 20px;
+}
+#course{
+    margin: auto;
+}
+#end{
+    margin-left: 20px;
+}
+#height{
+    height: 100px;
+}
+

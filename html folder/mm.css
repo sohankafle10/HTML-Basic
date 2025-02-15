@@ -1,0 +1,17 @@
+{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    float: right;
+    background-color: brown;
+    width: 100%;
+}
+#nav ul li{
+    display: inline;
+    background-color: antiquewhite;
+
+    margin: 0 10px;
+    border: 10px;
+
+}

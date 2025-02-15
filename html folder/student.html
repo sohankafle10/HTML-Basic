@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="studentregistration.css">
+</head> 
+<body>
+    <div>
+        <h1 align="center"> Student Registration Form</h1>
+    </div>
+    <form method="get" action="student.php">
+       
+        <label  for="name">Username :</label>
+        <input type="text" name="username" id="name" maxlength="20" placeholder="Enter your username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" id="password">
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your phonenumber">
+        <br>
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" placeholder="Enter your number" >
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" maxlength="20" placeholder="Enter your email" required>
+        <br>
+        <label for="gender"> Specify your gender :</label>
+        <input type="radio" name="gender" id="gender" value="Male">
+        <label for="gender1">Male</label>
+        <input type="radio" name="gender" id="gender" value="Female">
+        <label for="gender1">Female</label>
+        <br>
+        <label>Age:</label>
+        <input type="number" min="0" max="125" value="18">
+    
+        <br>
+
+        <label for="date">Date of birth:</label>
+        <input type="date" name="date" id="date" required>
+        <br>
+
+        <label for="">Interest:</label>
+        <input type="checkbox" name="Interest" value="Dancing"/>Dancing
+        <input type="checkbox" name="Interest" value="Watching Series"/>Watching Series
+        <input type="checkbox" name="Interest" value="Swimming"/>   Swimming
+        <br>
+        <label for="color">Fav Color:</label>
+        <input type="color" name="color" value="#ff1111"/>
+        <br>
+        <label> Created Time:</label>
+        <input type="time" name="ctime" value="13:00:00"/>
+        <label>Photo:</label>
+        <input type="file" name="">
+
+
+
+    </form>
+</body>
+</html>

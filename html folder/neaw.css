@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+width:100%;
+height: 100%;
+background-color: azure;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+flex-direction: column;
+
+}
+.container .navbar{
+    width:100%;
+    height: 60px;
+    background-color: rgb(64, 243, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+     
+  
+}
+.container .navbar .logo{
+    width: 30%;
+    /* border: 1px solid black; */
+
+}
+.container .navbar .menu{
+width:100%;
+margin: 2px;
+/* border: 1px solid black; */
+
+
+
+}
+
+.container .navbar .menu ul{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    list-style: none;
+
+
+}
+.container .navbar .menu ul a{
+    text-decoration: none;
+    color:rgb(72, 61, 16);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container .navbar .menu ul a:hover{
+    color: rgb(28, 5, 28);
+    
+} 
+.container .hero
+{
+    width: 100%;
+    height:calc(100vh - 60px) ;
+    display: flex ;
+    border: 1px solid red;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 0 20px; */
+
+}
+.container .hero .right, .container .hero .left{
+    width: 50%;
+    height:100% ;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* padding: 0 20px; */
+
+}
+.container .hero .left{
+    padding: 20px;
+}
+
+.container .hero .right{
+    justify-content: center;
+    align-items: center;
+}
+.container .hero .right img{
+    height: 300px;
+     width: 300px;
+     align-items: center;
+     box-shadow: 10px 10px 10px rgb(170, 247, 247);
+}
+.container .hero .left h1{
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+.container .hero .left p{
+    font-size: ;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px 3px;
+}
+.container .hero .left a button{
+    padding: 10px 20px;
+    background-color: rgb(128, 162, 73);
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px ;
+    color: white;
+}
+.container .service{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center; 
+     padding: 20px;
+
+}
+
+.container .service h1{
+    font-size: 2rem;
+    color: darkviolet;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.container .service p{
+    font-size: 1.1rem;
+    color: darkviolet;
+    font-family: serif;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.container .service .service-container{
+width: 100%;
+height: 100%;
+
+display: flex;
+justify-content: space-around;
+/* border: 1px solid black;  */
+flex-direction: row;
+align-items: center;
+padding: 20px;
+
+}
+.container .service .service-container .service-box {
+   width: 300px;
+   border: 1px solid rgb(72, 13, 13);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  height: 300px;
+
+} 

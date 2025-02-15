@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="studentregistration.css">
+</head> 
+<body>
+    <div>
+        <h1 > Student Registration Form</h1>
+    </div>
+    <form method="get" action="student.php">
+       <fieldset id="style">
+         <legend>Registration Form</legend>
+        <label  for="name">Username :</label>
+        <input type="text" name="username" id="name" maxlength="20" placeholder="Enter your username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" id="password">
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your phonenumber">
+        <br>
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" placeholder="Enter your number" >
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" maxlength="20" placeholder="Enter your email" required>
+        <br>
+
+        <label for="address">Address:</label>
+        <input type="address" name="address" id="address" maxlength="20" placeholder="Enter your address" >
+        <br>
+
+
+
+
+        <label id="country">   
+            Country :  
+            </label>   
+            <select>  
+            <option value="Country">Country</option>  
+            <option value="Nepal">Nepal</option>  
+            <option value="China">China</option>  
+            <option value="USA">USA</option>  
+            <option value="India">India</option>  
+            <option value="Australia">Australia</option>  
+            <option value="Denmark">Denmark</option> 
+            </select>
+        
+            <br> 
+        <label for="gender"> Specify your gender :</label>
+        <input type="radio" name="gender" id="gender" value="Male">
+        <label for="gender1">Male</label>
+        <input type="radio" name="gender" id="gender" value="Female">
+        <label for="gender1">Female</label>
+        <br>
+        <label>Age:</label>
+        <input type="number" min="0" max="125"  value="18" id="age">
+    
+        <br>   
+
+        <label for="date">Date of birth:</label>
+        <input type="date" name="date" id="date" required>
+        <br>
+
+        <label for="interest">Interest:</label>
+        <input type="checkbox" id="interest" name="Interest" value="Dancing"/>Dancing
+        <input type="checkbox" id="interest" name="Interest" value="Watching Series"/>Watching Series
+        <input type="checkbox" id="interest" name="Interest" value="Swimming"/>   Swimming
+        <br>
+        <label for="color">Fav Color:</label>
+        <input type="color" name="color" id="color" value="#ff1111"/>
+        <br>
+        <label for="time"> Created Time:</label>
+        <input type="time" name="ctime" id="time" value="13:00:00"/>
+        <br>
+        <label for="photo">Photo:</label>
+        <input type="file"  id="photo"  name="photo">
+        <br>
+       <label for="height">Approx Height:</label>
+<input type="range" name="" id="">
+
+       </fieldset>
+      <div id="end">
+         <input type="reset" value="reset">
+        <input type="submit" value="submit"> </div>
+    
+     
+
+    </form>
+</body>
+</html>

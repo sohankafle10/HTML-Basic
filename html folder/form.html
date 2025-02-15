@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoForm Example</title>
+</head>
+<body>
+    <form method="post">
+        <label for="name">Username :</label>
+        <input type="email" name="username" maxlength="20" placeholder="Enter your username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password">
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" placeholder="Enter your phonenumber">
+        <br>
+        <label for="number">Number:</label>
+        <input type="number" name="number" placeholder="Enter your number" >
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" maxlength="20" placeholder="Enter your email" required>
+        <br>
+        
+        
+
+        <!--checkbox-->
+        <label for="male"> Male:</label>
+        <input type="checkbox" name="male" value="male">
+        <label for="female">Female:</label>
+        <input type="checkbox" name="female" value="female">
+        <br>
+
+
+        <!--radio-->
+        <label for="gender"> Specify your gender :</label>
+        <input type="radio" name="gender" id="" value="Male">
+        <label for="gender1">Male</label>
+        <input type="radio" name="gender" id="" value="Female">
+        <label for="gender1">Female</label>
+        <br>
+
+        <label for="test">Text</label>
+        <input type="text" name="test" readonly value="This is read only " id="">
+        <input type="number" min="0" max="100" name="number"> 
+
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+
+  <!--dropdown-->
+  <label for="country"> Country</label>
+  <select name="country" multiple>
+    <option value="Nepal"> Nepal</option>
+    <option value="Nepal"> USA</option>
+    <option value="Nepal"> UK</option>
+    <option value="Nepal"> Denmark</option>
+  </select>
+
+
+  <br>
+  <label for="comment"> Enter your comment</label>
+  <br>
+  <textarea name="comment" id="" cols="50" rows="15" placeholder="enter your comment here">
+
+  </textarea>
+
+  <input type="reset">
+  <input type="submit" value="submit"> 
+
+
+
+    
+
+</body>
+</html>

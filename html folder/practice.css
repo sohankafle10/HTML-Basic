@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    padding: 8% 0% 0% 1%;
+
+}
+
+.sohan{
+   display: flex;
+    width: 30%;
+   height: 250px;
+   display: grid;
+    
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px;
+}
+.sohan > img{
+    width: 100%;
+    height: 500px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+.sohan > img:hover{
+    width: 500%;
+    scale: 1.1;
+    
+}

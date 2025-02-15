@@ -1,0 +1,24 @@
+h1{
+  color:rgb(229, 221, 237);
+  background-color:black;
+}
+h2{
+  color:rgb(68, 0, 135);
+  background-color:rgb(244, 7, 7);
+}
+p{
+  color:rgb(231, 227, 235);
+  background-color:rgb(11, 3, 3);
+}
+.heading1{
+  color: blueviolet;
+  background-color: bisque;
+}
+.heading2{
+  color: rgb(228, 215, 240);
+  background-color: rgb(14, 13, 13);
+}
+#first{
+  color: black;
+  background-color: whitesmoke;
+}

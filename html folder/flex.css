@@ -1,0 +1,38 @@
+
+
+
+
+
+
+/* {
+padding: 0;
+margin: 0;
+}
+
+.container{
+    height: 80vh;
+    width:80vw;
+   
+    display: flex;
+    flex-direction: row;
+    border: 1px  solid black;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.container .item{
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+    margin: 10px;
+    flex-grow: 0 0 150px;
+}
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+
+ }
+ 
